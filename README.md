@@ -19,7 +19,7 @@ The algorithm is adapted from ["Weighted Reservoir Sampling with Replacement fro
 - **Weighted**: Each element can have a different probability weight
 - **Constant Memory**: O(1) memory usage regardless of stream size
 - **Single Pass**: Only requires one pass through the data
-- **Mathematically Sound**: Provides correct probability distributions
+- **Mathematically Sound**: Provides correct(ish) probability distributions
 
 ## Algorithm Details
 
