@@ -11,7 +11,7 @@ The WRSWR-SKIP algorithm implements weighted random reservoir sampling with repl
 - Each element has an associated weight that affects its probability of being selected
 - You want constant memory usage regardless of stream size
 
-The algorithm is adapted from **"Weighted Reservoir Sampling with Replacement from Multiple Data Streams, A. Meligrana, 2024"**.
+The algorithm is adapted from ["Weighted Reservoir Sampling with Replacement from Multiple Data Streams, A. Meligrana, 2024"](https://arxiv.org/html/2403.20256v3).
 
 ### Key Features
 
