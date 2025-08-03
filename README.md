@@ -150,30 +150,6 @@ stream_weighted_sample_single(
 3. **RNG**: Julia's AbstractRNG vs NumPy's Generator
 4. **Interface**: Julia's OnlineStatsBase protocol vs simple method names
 
-## Performance
-
-The algorithm provides excellent performance characteristics:
-
-- **Time**: O(1) per element (constant time processing)
-- **Space**: O(1) total memory usage
-- **Streaming**: Suitable for infinite streams
-- **Scalability**: Tested with 100,000+ elements
-
-## Mathematical Properties
-
-The algorithm maintains the correct probability distribution:
-
-P(element_i selected) = weight_i / sum(all weights)
-
-This is achieved through the exponential skip mechanism that creates the appropriate selection probabilities.
-
-## Practical Applications
-
-1. **Log Analysis**: Sample log entries based on severity levels
-2. **Feature Selection**: Select features based on importance scores  
-3. **Customer Sampling**: Sample customers weighted by lifetime value
-4. **Stream Processing**: Real-time sampling from data streams
-5. **A/B Testing**: Weighted sampling for experimental groups
 
 ## Testing
 
